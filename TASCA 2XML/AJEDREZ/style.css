@@ -1,0 +1,27 @@
+body {
+    font-size: 250px;
+}
+.ajedrez {
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+}
+
+.negro {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+
+.rojo {
+    width:350px;
+    height: 350px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
